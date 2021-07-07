@@ -51,8 +51,11 @@ Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
 	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/touhou02.png",
+	"backgrounds/images/touhou03.png",
+	"backgrounds/images/touhou04.jpg",
+	"backgrounds/images/touhou05.png",
+	"backgrounds/images/touhou06.png"
 ];
 
 /*Random background images order?*/
@@ -61,7 +64,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 10000;
 
 /*(Image-background only)
 Image background fade velocity

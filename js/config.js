@@ -107,7 +107,7 @@ var l_messagesEnabled = true;
 /*Enter your custom messages below*/
 var l_messages = [
 "Witamy na serwerze IGRP!",
-"Baw się dobrze!!"
+"Baw się dobrze!!",
 ];
 
 /*Random message order?*/

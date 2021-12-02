@@ -50,11 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg",
+	"backgrounds/images/touhou01.png",
+	"backgrounds/images/touhou02.png",
+	"backgrounds/images/touhou03.png",
 	"backgrounds/images/touhou04.png",
-	"backgrounds/images/touhou05.jpg",
+	"backgrounds/images/touhou05.png",
 	"backgrounds/images/touhou06.png"
 ];
 

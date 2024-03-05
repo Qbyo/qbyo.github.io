@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "IGRP SWRP";
+var l_serverName = "7th Pluton 'Krayt's Fang' ";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -102,7 +102,8 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Witamy na serwerze IGRP!",
+"Witaj w 7 Plutonie 'Krayt's Fang'!",
+"Chwała Imperium!",
 "Baw się dobrze!!",
 ];
 

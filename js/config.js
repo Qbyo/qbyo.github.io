@@ -105,9 +105,31 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Witaj w 7 Plutonie 'Krayt's Fang'!",
-"Chwała Imperium!",
-"Baw się dobrze!!",
+"Zakładanie pancerza",
+"Czyszczenie hełmu",
+"Patrolowanie terenu",
+"Przygotowanie do desantu",
+"Naprawa urządzeń komunikacyjnych",
+"Analiza strategii wroga",
+"Naprawa pojazdów bojowych",
+"Kalibracja celownika",
+"Konserwowanie karabinu laserowego",
+"Uzupełnianie amunicji do wyrzutni rakiet",
+"Badanie stanu zdrowia żołnierzy",
+"Sprawdzanie stanu sprzętu medycznego",
+"Przygotowanie medykamentów",
+"Szkolenie z pierwszej pomocy",
+"Zwalczanie rebelianckiej propagandy",
+"Przeszukiwanie domów",
+"Rozbrajanie ładunków wybuchowych",
+"Niszczenie wrogich pojazdów pancernych",
+"Odbudowywanie zniszczonych infrastruktur po bitwie",
+"Tworzenie okopów",
+"Demontowanie zasiek",
+"Uruchamianie silników",
+"Wyznaczanie terenu bombardowań",
+"Interrogacja podejrzanych o zdradę Imperium",
+"Monitorowanie lojalności wobec Imperium"
 ];
 
 /*Random message order?*/

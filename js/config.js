@@ -50,8 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
+	"backgrounds/images/touhou01.png",
 	"backgrounds/images/touhou02.png",
 	"backgrounds/images/touhou03.png",
+	"backgrounds/images/touhou04.png",
+	"backgrounds/images/touhou05.png",
 ];
 
 /*Random background images order?*/
@@ -84,7 +87,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "UOEaZOHyo6w", name: " "}
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
@@ -92,7 +98,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 50;
+var l_musicVolume = 0;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;

@@ -50,8 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
+	"backgrounds/images/touhou01.png",
 	"backgrounds/images/touhou02.png",
 	"backgrounds/images/touhou03.png",
+	"backgrounds/images/touhou04.png",
+	"backgrounds/images/touhou05.png",
 ];
 
 /*Random background images order?*/
@@ -76,15 +79,19 @@ var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = false;
+var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "UOEaZOHyo6w", name: " "}
+	{ogg: "songs/imperialmarch.ogg", name: " "},
+	{ogg: "songs/2march.ogg", name: " "},
+	{ogg: "songs/ams.ogg", name: " "},
+	{ogg: "songs/unexpected.ogg", name: " "},
+	{ogg: "songs/Zann.ogg", name: " "},
 ];
 
 /*Random music order?*/
@@ -92,16 +99,55 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 50;
+var l_musicVolume = 10;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Witaj w 7 Plutonie 'Krayt's Fang'!",
-"Chwała Imperium!",
-"Baw się dobrze!!",
+"Zakładanie pancerza",
+"Czyszczenie hełmu",
+"Patrolowanie terenu",
+"Przygotowanie do desantu",
+"Naprawa urządzeń komunikacyjnych",
+"Analiza strategii wroga",
+"Naprawa pojazdów bojowych",
+"Kalibracja celownika",
+"Konserwowanie karabinu laserowego",
+"Uzupełnianie amunicji do wyrzutni rakiet",
+"Badanie stanu zdrowia żołnierzy",
+"Sprawdzanie stanu sprzętu medycznego",
+"Przygotowanie medykamentów",
+"Szkolenie z pierwszej pomocy",
+"Zwalczanie rebelianckiej propagandy",
+"Przeszukiwanie domów",
+"Rozbrajanie ładunków wybuchowych",
+"Niszczenie wrogich pojazdów pancernych",
+"Odbudowywanie zniszczonych infrastruktur po bitwie",
+"Tworzenie okopów",
+"Demontowanie zasiek",
+"Uruchamianie silników",
+"Wyznaczanie terenu bombardowań",
+"Interrogacja podejrzanych o zdradę Imperium",
+"Monitorowanie lojalności wobec Imperium",
+"Testowanie sprzętu do detekcji i rozpoznawania pułapek",
+"Przygotowanie medyczne przed ewakuacją rannych",
+"Przygotowanie sprzętu do reperacji uszkodzeń infrastruktury",
+"Analiza raportów z zabezpieczonych urządzeń podsłuchowych",
+"Szkolenie z technik maskowania i kamuflażu",
+"Przygotowanie sprzętu do walki w terenie zurbanizowanym",
+"Ewaluacja stanu technicznego uzbrojenia jednostki",
+"Testowanie sprzętu do wykrywania i neutralizacji ładunków wybuchowych",
+"Przygotowanie sprzętu do walki w warunkach niskiej widoczności",
+"Szkolenie z technik samoobrony i walki w zwarciu",
+"Utrzymanie i serwisowanie statków",
+"Przygotowanie do skoku hiperprzestrzennego",
+"Przygotowanie do blokady przestrzeni kosmicznej",
+"Ewaluacja stanu technicznego myśliwców TIE",
+"Przygotowanie sprzętu do desantu na wrogim statku",
+"Testowanie nowych protokołów komunikacji międzygwiezdnej",
+"Kalibracja systemów obronnych na pokładzie okrętu",
 ];
 
 /*Random message order?*/

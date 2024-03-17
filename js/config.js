@@ -55,6 +55,7 @@ var l_bgImages = [
 	"backgrounds/images/touhou03.png",
 	"backgrounds/images/touhou04.png",
 	"backgrounds/images/touhou05.png",
+	"backgrounds/images/touhou06.png",
 ];
 
 /*Random background images order?*/
@@ -88,7 +89,6 @@ var l_musicDisplay = false;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{ogg: "songs/imperialmarch.ogg", name: " "},
-	{ogg: "songs/2march.ogg", name: " "},
 	{ogg: "songs/ams.ogg", name: " "},
 	{ogg: "songs/unexpected.ogg", name: " "},
 	{ogg: "songs/Zann.ogg", name: " "},
